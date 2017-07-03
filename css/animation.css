@@ -1,0 +1,44 @@
+.bei{
+    animation: bei 10s linear infinite;
+}
+@keyframes bei {
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(360deg);}
+}
+.ye3-tu1{
+    animation: ye-tu 3s linear;
+}
+@keyframes ye-tu{
+    0%{transform: scale(3);}
+    100%{transform: scale(1);}
+}
+.ye4 span:nth-child(3){
+    transform:rotate(-10deg);
+    animation: ye4-sp 1s 0.5s linear;
+}
+@keyframes ye4-sp {
+    from{transform: translateX(-10rem) rotate(-10deg)}
+    to{transform: translateX(5rem) rotate(-10deg)}
+}
+.ye5-p1{
+    animation: ye5-p1 2s linear;
+}
+@keyframes ye5-p1 {
+    from{transform: scale(0);}
+    to{transform: scale(1)}
+}
+.ye5-p2{
+    position: absolute;top:18rem;left: 7.5rem;
+}
+.ye5-p2{
+    transform-origin:50% 0%;
+    animation: ye5-p2 2s linear;
+}
+@keyframes ye5-p2 {
+    from{transform: scale(0);}
+    to{transform: scale(1)}
+}
+.xuanzhuan{ animation:zhuan 2s linear infinite;}
+@keyframes zhuan {
+    0%{transform: rotateZ(-360deg)}
+}
